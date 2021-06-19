@@ -11,6 +11,7 @@
 </template>
 
 <script>
+
 import Counter from './_components/Counter.vue'
 import Disclosure from './_components/Disclosure.vue'
 const components = { Counter, Disclosure }
