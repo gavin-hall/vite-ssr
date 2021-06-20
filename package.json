@@ -12,14 +12,15 @@
   "dependencies": {
     "@headlessui/vue": "^1.2.0",
     "@heroicons/vue": "^1.0.1",
+    "@tailwindcss/forms": "^0.3.3",
     "@vitejs/plugin-vue": "^1.2.3",
     "@vue/compiler-sfc": "^3.0.11",
     "@vue/server-renderer": "^3.0.11",
     "cross-env": "^7.0.3",
     "express": "^4.17.1",
-    "vite": "^2.3.6",
+    "vite": "^2.3.8",
     "vite-plugin-ssr": "^0.1.2",
-    "vue": "^3.0.11"
+    "vue": "^3.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",

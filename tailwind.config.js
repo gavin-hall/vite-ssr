@@ -1,11 +1,20 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
+  mode: 'jit',
   purge: ['./pages/**/*.{vue,js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        sky: colors.sky,
+        teal: colors.teal,
+        rose: colors.rose,
+      }
+    }
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
+  variants: {},
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
