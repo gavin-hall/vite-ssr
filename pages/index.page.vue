@@ -14,11 +14,11 @@
       </div>
     </div>
   </div>
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
+  <!-- <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
     <div class="max-w-3xl mx-auto">
       <Disclosure />
     </div>
-  </div>
+  </div> -->
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
     <div class="max-w-3xl mx-auto">
       <Dialog />
@@ -48,11 +48,10 @@
 
 <script>
 import Panel from './_components/panel.vue'
-import Disclosure from './_components/disclosure.vue'
 import Dialog from './_components/dialog.vue'
 import RadioGroup from './_components/radio-group.vue'
 import ActionsSharedBorders from './_components/actions-sharedborders.vue'
 import Table from './_components/table.vue'
-const components = { Panel, Disclosure, Dialog, RadioGroup, ActionsSharedBorders, Table }
+const components = { Panel, Dialog, RadioGroup, ActionsSharedBorders, Table }
 export default { components }
 </script>
